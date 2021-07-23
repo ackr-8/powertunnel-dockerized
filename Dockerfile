@@ -1,6 +1,4 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
-
-#RUN apk add --no-cache openjdk11-jre wget
+FROM adoptopenjdk/openjdk11:jre
 
 WORKDIR /opt
 
