@@ -9,7 +9,7 @@ PowerTunnel is an active DPI circumvention utility. This docker image is compati
 ## Getting Started
 
 ```
-docker run -p 8085:8085 -v /path/to/data:/config ackr-8/powertunnel:latest
+docker run -p 8085:8085 -v /path/to/data:/config ackr8/powertunnel:latest
 ```
 
 ## Configuration
