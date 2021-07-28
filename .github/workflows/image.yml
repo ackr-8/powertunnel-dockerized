@@ -19,5 +19,5 @@ jobs:
       - name: build the image
         run: |
           docker buildx build --push \
-            --tag ackr8/powertunnel:latest \
-            --platform linux/amd64,linux/arm64,linux/arm . 
+            --tag ackr8/powertunnel:slim \
+            --platform linux/amd64. 

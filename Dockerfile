@@ -1,6 +1,4 @@
-FROM adoptopenjdk/openjdk11:jre
-
-RUN apt-get update && apt-get install wget ca-certificates -y
+FROM adoptopenjdk/openjdk11:alpine-jre
 
 WORKDIR /opt
 
