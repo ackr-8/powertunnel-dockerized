@@ -20,4 +20,4 @@ jobs:
         run: |
           docker buildx build --push \
             --tag ackr8/powertunnel:slim \
-            --platform linux/amd64. 
+            --platform linux/amd64
